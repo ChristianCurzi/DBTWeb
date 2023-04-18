@@ -23,7 +23,7 @@ insert into Azeinda (IDAzienda, RagioneSociale, Logo, Mail, Sede, Tipologia, Tel
            ('AZ00000002', 'AntonelliVivai', 'LOGO2', 'AntonelliVivai@gmail.com', 'Via Giovanni Bianchi 2', 'Falegnameria','3210986049', 'Descrizione2'),
            ('AZ00000003', 'BellaAzienda', 'LOGO3', 'BellaAzienda@gmail.com', 'Via Giovanni Bianchi 3', 'Tech','3210986049', 'Descrizione3'),
            ('AZ00000004', 'Ducati', 'LOGO4', 'aziendabella@gmail.com', 'Via Giovanni Bianchi 4', 'Motori','3210986049', 'Descrizione4'),
-           ('AZ00000005', 'BenedettaPSG', 'LOGO5', 'aziendabella@gmail.com', 'Via Giovanni Bianchi 5', 'Cucina','3210986049', 'Descrizione5');
+           ('AZ00000005', 'BenedettaPSG', 'LOGO5', 'aziendamoltobella@gmail.com', 'Via Giovanni Bianchi 5', 'Cucina','3210986049', 'Descrizione5');
 
 
 insert into Coupon (IDCoupon)
