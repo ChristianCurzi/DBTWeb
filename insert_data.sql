@@ -7,11 +7,11 @@ insert into Utente (Username, Password, Livello, Nome, Cognome, Email, DataNasci
 
 
 insert into Offerta (IDOfferta, Tipologia, Inizio, Scadenza, LuogoFruizione, DescrizioneOfferta)
-    VALUES ('OFF0000001', 'Abbigliamento', '1900-01-01', '1900-02-01', 'Via Mario Rossi 123', 'Offerta molto offertosa'),
-           ('OFF0000002', 'Falegnameria', '1900-01-01', '1900-0-01', 'Via Mario Rossi 1234', 'Offertosa molto offerta'),
-           ('OFF0000003', 'Tech', '1900-01-01', '1900-02-01', 'Via Mario Rossi 12345', 'Offerta molto offerta'),
-           ('OFF0000004', 'Motori', '1900-01-01', '1900-02-01', 'Via Mario Rossi 123456', 'Offertosa molto offertosa'),
-           ('OFF0000005', 'Cucina', '1900-01-01', '1900-02-01', 'Via Mario Rossi 1234567', 'Molto molto molto');
+    VALUES ('OFF0000001', 'Abbigliamento', '1900-01-01', '1900-02-01', 'Via Mario Rossi 1', 'Offerta molto offertosa'),
+           ('OFF0000002', 'Falegnameria', '1900-01-01', '1900-0-01', 'Via Mario Rossi 2', 'Offertosa molto offerta'),
+           ('OFF0000003', 'Tech', '1900-01-01', '1900-02-01', 'Via Mario Rossi 3', 'Offerta molto offerta'),
+           ('OFF0000004', 'Motori', '1900-01-01', '1900-02-01', 'Via Mario Rossi 4', 'Offertosa molto offertosa'),
+           ('OFF0000005', 'Cucina', '1900-01-01', '1900-02-01', 'Via Mario Rossi 5', 'Molto molto molto');
 
 
 insert into Azeinda (IDAzienda, RagioneSociale, Logo, Mail, Sede, Tipologia, Telefono, Descrizione)
