@@ -1,9 +1,9 @@
 use TWeb;
 
 insert into Utente (Username, Password, Livello, Nome, Cognome, Email, DataNascita, Genere, Telefono)
-    VALUES ('ChriCurz','Belletette', 3,'Christian','Curzi','chricurz@belletette.com','2002-03-09','Maschio','8377373773'),
-           ('VanGorgs','BeccatiStoCigno', 2, 'Ludofico', 'Gorgoglione', 'ludovicogogrs@belletette.com', '2000-12-19', 'BOH', '3363516211'),
-           ('Ainz', 'SoptifAinzMetal', 1, 'Ainz', 'Ainz', 'ainz@spotifainz.com', '1900-01-01', 'BOHpt2', '1234567890');
+    VALUES ('ChriCurz','MUB887EBC-1MSQ', 3,'Christian','Curzi','chricurz@gmail.com','2002-03-09','Uomo','8377373773'),
+           ('VanGorg','NNAUCVTEU-NSUW', 2, 'Ludofico', 'Gorgoglione', 'ludogogr@gmail.com', '2000-12-19', 'Uomo', '3363516211'),
+           ('Ainz', 'QRTA-GVWTT652', 1, 'Ainz', 'Ainz', 'ainz@spotifainz.com', '1900-01-01', 'Uomo', '1234567890');
 
 
 insert into Offerta (IDOfferta, Tipologia, Inizio, Scadenza, LuogoFruizione, DescrizioneOfferta)
