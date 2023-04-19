@@ -52,7 +52,7 @@ DROP TABLE IF EXISTS Pubblica;
 create table Pubblica (
     IDOfferta char(10) not null,
     Azienda char(10) not null,
-    primary key (IDOfferta, Azienda),
+    primary key (IDOfferta),
     foreign key (IDOfferta) references Offerta(IDOfferta) on update cascade on delete no action,
     foreign key (Azienda) references Azeinda(IDAzienda) on update cascade on delete no action
 );
@@ -62,7 +62,7 @@ DROP TABLE IF EXISTS Emissione;
 create table Emissione (
     IDCoupon char(10 )not null,
     IDOfferta char(10) not null,
-    primary key (IDCoupon, IDOfferta),
+    primary key (IDCoupon),
     foreign key (IDOfferta) references Offerta(IDOfferta) on update cascade on delete no action,
     foreign key (IDCoupon) references Coupon(IDCoupon) on update cascade on delete no action
 );
@@ -72,7 +72,7 @@ DROP TABLE IF EXISTS Possiede;
 create table Possiede (
     Utente char(10) not null,
     IDCoupon char(10) not null,
-    primary key (Utente, IDCoupon),
+    primary key (IDCoupon),
     foreign key (Utente) references Utente(Username) on update cascade on delete no action,
     foreign key (IDCoupon) references Coupon(IDCoupon) on update cascade on delete no action
 );
